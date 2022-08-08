@@ -7,7 +7,7 @@ export default function App() {
   console.log(isLoading, error, data);
 
   return (
-    <div className="prose">
+    <div className="prose font-body">
       <h1 className="underline decoration-green-400">Hello there!</h1>
     </div>
   );
