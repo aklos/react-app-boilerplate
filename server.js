@@ -43,7 +43,7 @@ app.use(router.routes());
 app.use(router.allowedMethods());
 
 // Start the server
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
 
 app.listen(port, () => {
   console.log(`React app listening on port ${port}`);
